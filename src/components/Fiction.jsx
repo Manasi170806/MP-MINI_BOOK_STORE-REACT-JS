@@ -1,4 +1,5 @@
 import fictionalData from "../fiction.json"
+import BookCard from "./BookCard";
 
 export default function Fiction() {
   return (
