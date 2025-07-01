@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Fiction from "./components/Fiction";
 import NonFiction from "./components/NonFiction";
+import "./App.css";
 
 function App() {
   const [flag,setflag]=useState(false)

@@ -1,0 +1,104 @@
+body
+{
+    background-color: #f0f0f0;
+}
+h1
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button
+{
+    width: 270px;
+    height: 50px;
+    background-color: #b3b7b3; 
+    border: none;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 41%;
+    border-radius: 10px;
+}
+button:hover
+{
+    background-color: #060706; 
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.book-card
+{
+    width: 300px;
+    height: 330px;
+    border: 1px solid black;
+    margin: 25px 90px;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.book-card-img
+{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.book-card-title
+{
+    font-size: 20px;
+    padding: 10px 0px;
+    font-weight: bold;
+    color: #333;
+}
+.book-card-year
+{
+    font-size: 16px;
+    color: #666;
+}
+.book-card-author
+{
+    font-size: 18px;
+    color: #555;
+}
+.book-card-price
+{
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+.book-card:hover
+{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.book-card:active
+{
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.book-card-author:hover,
+.book-card-price:hover
+{
+    color: #007bff;
+    cursor: pointer;
+}
+.book-card-title:hover
+{
+    color: #ff5722;
+    cursor: pointer;
+}
+.book-card-year:hover
+{
+    color: #3fde44;
+    cursor: pointer;
+}
+.book-card:hover .book-card-title,
+.book-card:hover .book-card-author,
+.book-card:hover .book-card-price,
+.book-card:hover .book-card-year
+{
+    transition: color 0.3s;
+}
